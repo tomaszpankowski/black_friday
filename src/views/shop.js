@@ -5,7 +5,7 @@ import ShopS1 from "../components/shop-s1";
 class Shop extends Component{
     render(){
         return(        
-            <Container fluid className="minh-footer-adj p-0">
+            <Container fluid className="minh-footer-adj shop-s1 p-0">
                 <ShopS1/>
             </Container>    
         );

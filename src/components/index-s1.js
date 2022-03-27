@@ -24,7 +24,7 @@ class ContactData extends Component{
                             <h5 className="text-white">
                                 Sed ut perspiciatis
                             </h5>
-                            <h2 className="dispaly-6 fw-bold text-white-50 text-shadow">
+                            <h2 className="dispaly-6 fw-bold text-danger text-shadow">
                                 Unde omnis iste
                             </h2>
                             <p className="text-white">
@@ -32,7 +32,7 @@ class ContactData extends Component{
                                 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
                                 et quasi architecto beatae vitae dicta sunt explicabo. 
                             </p>
-                            <Link to="#" className="btn btn-sm btn-outline-light rounded-pill">
+                            <Link to="#" className="btn btn-sm btn-outline-danger rounded-pill">
                                 Lorem ipsum <span className="fw-bold mx-1">dolor</span>
                             </Link>
                         </div>
