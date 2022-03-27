@@ -12,12 +12,12 @@ class ShopS1 extends Component{
             <Container fluid className="d-flex minh-100vh align-items-start py-5">
                 <Row className="mx-0 w-100 mt-5">
                     <Col xs={12} sm={5} md={4} lg={3} className="pt-5">
-                        <Card className="opacity-8">
-                            <Card.Header className="bg-light">
-                                <Card.Title className="text-secondary float-start">
+                        <Card className="opacity-8 bg-dark border-danger text-danger">
+                            <Card.Header className="border-danger">
+                                <Card.Title className="text-danger float-start">
                                     Filter
                                 </Card.Title>   
-                                <Button variant="outline-secondary" size="sm" className="float-end rounded" 
+                                <Button variant="outline-danger" size="sm" className="float-end rounded" 
                                     data-bs-toggle="collapse" 
                                     data-bs-target="#filters">
                                     +
@@ -75,11 +75,11 @@ class ShopS1 extends Component{
                                             type="checkbox"
                                             label="Item"/>
                                     </fieldset>
-                                    <div className="w-100 text-end border-top pt-2">
-                                        <Button type="reset" variant="secondary" size="sm" className="rounded-pill">
+                                    <div className="w-100 text-end border-top border-danger pt-2">
+                                        <Button type="reset" variant="danger" size="sm" className="rounded-pill">
                                             Clear
                                         </Button>
-                                        <Button type="submit" variant="secondary" size="sm" className="rounded-pill">
+                                        <Button type="submit" variant="danger" size="sm" className="rounded-pill">
                                             Filter
                                         </Button>
                                     </div>
